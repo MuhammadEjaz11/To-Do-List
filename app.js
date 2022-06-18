@@ -2,6 +2,7 @@ var btn = document.getElementById('addbtn').addEventListener('click', addTask);
 let data = [];
 let taskmenu = false;
 let taskmenu1 = document.querySelector('.add-items');
+let tasklistdiv = document.getElementById('tasks');
 let taskbtn1 = document.querySelector('.addtaskbtn');
 let complete = document.getElementById('complete');
 
@@ -12,10 +13,11 @@ function showHide(){
         taskmenu1.style.transform = "translateY(0%)";
         taskmenu = true;
         taskbtn1.innerHTML = "Close"
+        tasklistdiv.style.transform = "translateY(0%)"
     }else{
         taskmenu1.style.transform = "translateY(-100%)";
         taskbtn1.innerHTML = "Add New Task"
-
+        tasklistdiv.style.transform = "translateY(-100%)"
         taskmenu = false
 
     }

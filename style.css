@@ -83,6 +83,9 @@ body{
     flex-direction: column;
     height: 200px;
     overflow: auto;
+    /* border: 1px solid black; */
+    transform: translateY(-100%);
+    animation: .4s;
 }
 ul{
     list-style: none;
