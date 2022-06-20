@@ -202,6 +202,47 @@ span{
     }
     
 }
+@media only screen and (max-width: 375px) {
+    .page-content{
+        width: 80%;
+    
+    }
+    .addtaskbtn{
+        padding: 0.4em;
+        font-size: 1em;
+        width: 150px;
+    }
+    .add-items h3{
+        font-size: 0.8em;
+    }
+    .inputtext{
+        width: 90%;
+        margin: 0.5em;
+        padding: 0.5em;
+        
+    }
+    .addbutton{
+        padding: 0.2em;
+        font-size: 1em;
+        width: 40%;
+        
+    
+    }
+    .edit{
+        padding: 0.2em;
+        width: 270px;
+        font-size: 0.5em;
+       
+    }
+    .list-wrapper{
+        width: 90%;
+        /* border: 1px solid black; */
+        
+    }
+    
+    
+}
+
 @media only screen and (max-width: 320px) {
     .page-content{
         width: 80%;
@@ -242,3 +283,85 @@ span{
     
     
 }
+@media only screen and (max-width: 425px) {
+    .page-content{
+        width: 80%;
+    
+    }
+    .addtaskbtn{
+        padding: 0.4em;
+        font-size: 1em;
+        width: 150px;
+    }
+    .add-items h3{
+        font-size: 0.8em;
+    }
+    .inputtext{
+        width: 90%;
+        margin: 0.5em;
+        padding: 0.5em;
+        
+    }
+    .addbutton{
+        padding: 0.2em;
+        font-size: 1em;
+        width: 40%;
+        
+    
+    }
+    .edit{
+        padding: 0.2em;
+        width: 270px;
+        font-size: 0.5em;
+       
+    }
+    .list-wrapper{
+        width: 90%;
+        /* border: 1px solid black; */
+        
+    }
+    
+    
+}
+@media only screen and (max-width: 768px) {
+    .page-content{
+        width: 80%;
+    
+    }
+    .addtaskbtn{
+        padding: 0.4em;
+        font-size: 1em;
+        width: 150px;
+    }
+    .add-items h3{
+        font-size: 0.8em;
+    }
+    .inputtext{
+        width: 90%;
+        margin: 0.5em;
+        padding: 0.5em;
+        
+    }
+    .addbutton{
+        padding: 0.2em;
+        font-size: 1em;
+        width: 40%;
+        
+    
+    }
+    .edit{
+        padding: 0.2em;
+        width: 270px;
+        font-size: 0.5em;
+       
+    }
+    .list-wrapper{
+        width: 90%;
+        /* border: 1px solid black; */
+        
+    }
+    
+    
+}
+
+
