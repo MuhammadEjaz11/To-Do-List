@@ -202,7 +202,7 @@ span{
     }
     
 }
-<<<<<<< HEAD
+
 @media only screen and (max-width: 375px) {
     .page-content{
         width: 80%;
@@ -243,9 +243,6 @@ span{
     
     
 }
-
-=======
->>>>>>> 7735bc388ca425d1d5da8e15de5260edf2a76039
 @media only screen and (max-width: 320px) {
     .page-content{
         width: 80%;
@@ -286,7 +283,7 @@ span{
     
     
 }
-<<<<<<< HEAD
+
 @media only screen and (max-width: 425px) {
     .page-content{
         width: 80%;
@@ -327,6 +324,7 @@ span{
     
     
 }
+
 @media only screen and (max-width: 768px) {
     .page-content{
         width: 80%;
@@ -367,7 +365,3 @@ span{
     
     
 }
-
-
-=======
->>>>>>> 7735bc388ca425d1d5da8e15de5260edf2a76039
