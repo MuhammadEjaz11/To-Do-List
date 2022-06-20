@@ -5,7 +5,7 @@ let taskmenu1 = document.querySelector('.add-items');
 let tasklistdiv = document.getElementById('tasks');
 let taskbtn1 = document.querySelector('.addtaskbtn');
 let complete = document.getElementById('complete');
-const retData = JSON.parse(localStorage.getItem("data"));
+var retData = JSON.parse(localStorage.getItem("data"));
 taskbtn1.addEventListener('click', showHide);
 let clears = document.getElementById('clearall').addEventListener('click', clearAll);
 
@@ -17,7 +17,7 @@ function retDataf(){
             
             let dName = retData[i].title;
             var dDescription = retData[i].description;
-            var dDate = retData[i].date;
+            var dDate = retData[i].data;
             const task = document.createElement("div");
             var cont = document.getElementById('tasks');
             task.innerHTML =

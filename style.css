@@ -144,6 +144,14 @@ span{
 #clearall:hover{
     background-color: rgb(53, 53, 53);
 }
+@media only screen and (max-width: 1024px) {
+    .page-content{
+    
+        width: 50%;
+        
+    }
+    
+}
 @media only screen and (max-width: 768px) {
     .delete{
         padding: 0.8em;
