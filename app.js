@@ -112,12 +112,13 @@ function deleteFn(e){
 }
 
 function completetask(e){
-    let comp = document.querySelector('.edit');
     let completetask = e.parentElement.parentElement.firstChild.firstChild;
     completetask.style.textDecoration = "line-through";
     completetask.style.color = "gray";
-    comp.innerHTML = "Completed";
-
+    e.innerHTML = "Completed"
+    
+    
+    
 }
 function clearAll(){
     let tasks = document.getElementById('tasks');
